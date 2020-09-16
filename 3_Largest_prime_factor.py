@@ -21,3 +21,24 @@ while i<num:
 print maxx
     
 
+#def prime(x):
+#    r = True
+#    n = (x-1)//2
+#    for i in range(2,n,1):
+#        if x%i==0:
+#            r = False
+#            break
+#    return (r)
+#
+#num=600851475143//2
+#maxx=1
+#i=2
+#while i<num:
+#    if prime(i)==True:
+#        if 600851475143%i==0:
+#            maxx = i
+#            print maxx
+#    i += 1
+#
+#print maxx
+    
