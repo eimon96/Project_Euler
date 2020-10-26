@@ -26,7 +26,7 @@ Dev-C++ 5.11
 
 
 
-int collatz(int n)
+int collatz(long long n)
 {
 	int count = 1;
 	
@@ -51,26 +51,26 @@ int collatz(int n)
 int main()
 {
 	
-	int i;
-	int maxx =  0;
-	int start_num;
+	long long i;
+	long long maxx =  0;
+	long long start_num;
+	long long c;
 	
 	
 	for(i=2; i<1000000; i++)
 	{
-		if (collatz(i) > maxx)
+		c = collatz(i);
+		if (c > maxx)
 		{
-			maxx = collatz(i);
+			maxx = c;
 			start_num = i;
 		}
 	}
 
 	
-	printf("%d , %d \n", maxx, start_num);
+	printf("%lld , %lld \n", maxx, start_num);
 	system("pause");
 	return 0;
 }
-
-
 
 
