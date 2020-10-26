@@ -51,19 +51,19 @@ int main()
 {
 	
 	int count = 1;
-	long long n = 2;
+	long long n = 3;
 	
 	while(true)
 	{
 		if(prime(n))
 		{
-			count++;
+			++count;
 		}
 		if(count==10001)
 		{
 			break;
 		}
-		n++;
+		n++; n++;
 	}
 
 
@@ -73,6 +73,8 @@ int main()
 	system("pause");
 	return 0;
 }
+
+
 
 
 
