@@ -49,7 +49,7 @@ int main()
 	printf("%d, %d, %d \n", prod1, prod2, maxx);
 	
 	
-	system("break");
+	system("pause");
 	return 0;
 }
 
